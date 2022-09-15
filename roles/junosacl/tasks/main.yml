@@ -5,4 +5,4 @@
       - delete firewall family inet filter Ansible-test term ansible then accept
       - set firewall family inet filter Ansible-test term ansible then accept
     host: "{{ inventory_hostname }}"
-    transport: restconf
+    transport: netconf
