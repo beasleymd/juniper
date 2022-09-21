@@ -7,4 +7,4 @@
       - set snmp community public clients 192.168.1.0/24
       - set snmp community public clients 192.168.1.0/24 restrict
     host: "{{ inventory_hostname }}"
-    transport: restconf
+    transport: netconf
